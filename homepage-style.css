@@ -94,6 +94,16 @@ li a {
         height: 300px;
         background-color: rgb(255, 255, 255);
     }
+    
+    
+    .escondido {
+        opacity: 0;
+    }
+
+    .aparecer {
+        opacity: 1;
+        transition: opacity 0.9s ease-in-out; 
+    }
 
     .box { 
         width: 190px;
@@ -132,7 +142,30 @@ li a {
     
     
     #imagem { 
+        width: 400px;
+        margin-top: 30px;
+    }
+
+    #secondContent { 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #1D3A77;
+        height: 500px;
+    }
+
+    .contentbox { 
+        display: flex;
         width: 50%;
-        margin-top: 30px;   
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #secondContent div .box2 { 
+        height: 250px;
+        width: 180px;
+        background-color: #fff;
+        margin-bottom: 50px;
 
     }
