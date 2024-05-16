@@ -6,7 +6,7 @@
 
 header {
     height: 120px;
-    width: 100%;
+    width: 98%;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -16,6 +16,10 @@ div#logo {
     width: 100px;
     height: 100px;
     background-color: white;
+}
+
+#logo img { 
+    width: 280px;
 }
 
 ul {
